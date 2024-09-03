@@ -1,0 +1,63 @@
+{
+    "computerComponents": {
+      "CPU": {
+        "name": "Intel Core i9-11900K",
+        "cores": 8,
+        "threads": 16,
+        "baseClock": "3.5 GHz",
+        "boostClock": "5.3 GHz"
+      },
+      "RAM": {
+        "type": "DDR4",
+        "capacity": "32 GB",
+        "speed": "3200 MHz"
+      },
+      "storage": [
+        {
+          "type": "SSD",
+          "capacity": "1 TB",
+          "interface": "NVMe"
+        },
+        {
+          "type": "HDD",
+          "capacity": "2 TB",
+          "interface": "SATA"
+        }
+      ],
+      "motherboard": {
+        "model": "ASUS ROG Strix Z590-E",
+        "formFactor": "ATX",
+        "chipset": "Intel Z590"
+      },
+      "GPU": {
+        "model": "NVIDIA GeForce RTX 3080",
+        "memory": "10 GB GDDR6X",
+        "coreClock": "1440 MHz",
+        "boostClock": "1710 MHz"
+      },
+      "opticalDrive": {
+        "type": "Blu-ray",
+        "readSpeed": "16x",
+        "writeSpeed": "12x"
+      },
+      "peripherals": [
+        {
+          "type": "keyboard",
+          "model": "Logitech G Pro",
+          "connection": "Wired"
+        },
+        {
+          "type": "mouse",
+          "model": "Razer DeathAdder V2",
+          "connection": "Wired"
+        },
+        {
+          "type": "monitor",
+          "model": "Dell UltraSharp U2720Q",
+          "size": "27 inches",
+          "resolution": "3840x2160"
+        }
+      ]
+    }
+  }
+  

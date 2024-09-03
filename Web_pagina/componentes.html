@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB COMPONENTES</title>
+    <link rel="stylesheet" href="stiloComp.css">
+</head>
+<script src="scriptWeb.js"></script>
+<body>
+    <body>
+        <header id="banner"></header>
+    
+        <nav>
+            <ul>
+                <li><a href="Web.html">Inicio</a></li>
+                <li><a href="componentes.html">Componentes</a></li>
+            </ul>
+        </nav><br>
+        <div id="principal">
+            <!--Muestra la cantidad de compoentes-->
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Total de componentes</legend>
+                    <input type="button" value="Numero de componentes" onclick="numero_componentes()">
+                    <p id="numero_comp"></p>
+                </fieldset>
+            </form><br>
+    
+            <!--Muestra el componentes buscado-->
+            <form action="#" method="get">
+                <legend>Search</legend>
+                <input type="text" name="Introducir" id="compo">
+                <button onclick="mostrarComp()">Buscar</button><br>
+                <p id="buscar_componente"></p><br>
+            </form><br>
+    
+            <!--Muestra los componentes-->
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Cantidad de componentes</legend>
+                    <button onclick="mostrarComponentes()">Mostrar</button>
+                    <p id="comp_total"></p>
+                </fieldset>
+            </form><br>
+    
+    
+            <footer>
+                <a href="componentes.json" download="componentes.json">Descargar</a>
+                &copy;
+            </footer>
+        </div>
+    </body>
+</body>
+</html>

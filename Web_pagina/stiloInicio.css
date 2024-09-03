@@ -1,0 +1,67 @@
+
+body{
+    width: 75%;
+    min-width: 1200px;
+    margin: auto 0;
+    font-family: Arial, Helvetica, sans-serif,;
+    display: contents;
+}
+
+
+#banner {
+    padding: 90px;
+    background-image: url('wallpaper/compBanner.jpg');
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+#imagen1{
+    display: ruby-text;
+}
+
+#imagenes{
+    display: ruby-text;
+}
+
+#articulos{
+    border: 3px solid;
+    display: table-cell;
+
+}
+
+main{
+    width: 99.8%;
+    /* padding: 20px; */
+    text-align: center;
+    border: 1px gray solid;
+    float: left;
+}
+
+#figura1{
+    background-color: aqua;
+    margin: 0 14px;
+    border: 3px solid blue;
+    
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding:  10px 5px;
+    width: 70px;
+    height: 30px;
+    border: 2px solid black;
+    margin-right: 5px;
+}
+
+footer{
+    text-align: center;
+    color: black;
+    padding: 20px 0px;
+}
+
